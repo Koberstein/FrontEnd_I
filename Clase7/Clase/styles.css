@@ -1,0 +1,27 @@
+h2,h3,h4 {
+    color: rgba(255, 0, 0, 0.3);
+    background-color: royalblue;
+    width: 200px;
+    font-size: 20px;
+}
+
+p span{
+    color:blue;
+}
+/*
+#sub3{
+    color: red;
+    opacity: 0.5;
+}
+.subtitulo{
+    color: darkblue;
+}
+*/
+/* Acá empieza el header */
+p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+/* Acá terminó el header */
+
