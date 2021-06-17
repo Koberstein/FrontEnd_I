@@ -1,0 +1,63 @@
+/* Establesco una fuente generica para todo el documento */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Establesco una fuente especifica */
+.contenedor {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titulo{
+    font-size: 35px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h1,h2,h3{
+    color: blue;
+}
+
+.contenedor p{
+    color: yellow;
+}
+
+/* Todos los elementos con href seran de color marrón 
+[] sirve para seleccionar por atributo */
+[href]{
+    color: brown;
+}
+
+
+/*
+[href^="https"]{
+    color: brown;
+
+    $Todos los links que terminen con
+[href$="ar"]{
+    color: brown;
+}
+
+    * Que contenga en cualquier parte
+[href*="google"]{
+color: brown;
+}
+
+*/
+
+/* ^^ indica que comience */
+
+/*
+1000 en linea (intentar evitarlo porque no es mantenible)
+    100 ID
+        10 Clase o atributo
+            1 Etiqueta
+
+        
+
+x>y
+con > Afecto a todos los y que sean hijos de x 
+*/
+
+/* */
